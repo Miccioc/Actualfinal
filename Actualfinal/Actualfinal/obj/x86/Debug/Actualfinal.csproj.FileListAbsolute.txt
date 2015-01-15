@@ -1,0 +1,9 @@
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Actualfinal.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pericles14.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\speed.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\square.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Actualfinal.exe
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Actualfinal.pdb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Actualfinal.exe
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Actualfinal.pdb
