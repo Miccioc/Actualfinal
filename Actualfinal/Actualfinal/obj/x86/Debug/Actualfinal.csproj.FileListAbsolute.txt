@@ -19,3 +19,20 @@ C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86
 C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\background.xnb
 C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\music.xnb
 C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\music.wma
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\background.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Sound Remdy and Nitro Fun - Turbo Penguin.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Sound Remdy and Nitro Fun - Turbo Penguin.wma
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Stephen Walking - Too Simple.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Ephixa - Awesome to the Max.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pegboard Nerds and Tristam - Razor Sharp.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\OVERWERK - House.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Rogue - Adventure Time.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Laszlo - Messiah.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Braken - Flight.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Stephen Walking - Too Simple.wma
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Ephixa - Awesome to the Max.wma
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pegboard Nerds and Tristam - Razor Sharp.wma
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\OVERWERK - House.wma
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Rogue - Adventure Time.wma
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Laszlo - Messiah.wma
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Braken - Flight.wma

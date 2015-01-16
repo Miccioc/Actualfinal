@@ -29,9 +29,13 @@ namespace Actualfinal
         List<Sprite> Trail = new List<Sprite>();
         List<Sprite> Enemys = new List<Sprite>();
         Random randy = new Random(System.Environment.TickCount);
+        List<Song> songs = new List<Song>();
+        int songindex = 0;
+        bool isPlayingSong = false;
         int score = 0, Deaths = -1;
         //Rectangle Player = new Rectangle(10, 10, 100, 100);
         Speed sped;
+        KeyboardState old;
         public static float Speed = 1;
         public Game1()
         {
@@ -53,9 +57,24 @@ namespace Actualfinal
 
         protected override void LoadContent()
         {
-            Song song = Content.Load<Song>("music");
-            MediaPlayer.Play(song);
-            MediaPlayer.Volume = 10.0f;
+                
+                
+                //KeyboardState keybState = Keyboard.GetState();
+
+                    songs.Add(Content.Load<Song>("Sound Remdy and Nitro Fun - Turbo Penguin"));
+                    songs.Add(Content.Load<Song>("OVERWERK - House"));
+                    songs.Add(Content.Load<Song>("Rogue - Adventure Time"));
+                    songs.Add(Content.Load<Song>("Pegboard Nerds and Tristam - Razor Sharp"));
+                    songs.Add(Content.Load<Song>("Ephixa - Awesome to the Max"));
+                    songs.Add(Content.Load<Song>("Tristam and Stephen Walking - Too Simple"));
+                    songs.Add(Content.Load<Song>("Tristam and Braken - Flight"));
+                    songs.Add(Content.Load<Song>("Laszlo - Messiah"));
+
+                    
+                    //MediaPlayer.Play(song);
+                    MediaPlayer.Volume = 10.0f;
+              
+            
             spriteBatch = new SpriteBatch(GraphicsDevice);
             square = Content.Load<Texture2D>(@"square");
             pericles = Content.Load<SpriteFont>(@"pericles14");
@@ -93,6 +112,34 @@ namespace Actualfinal
         {
             score++;
             sped.Update(gameTime, Player.BoundingBoxRect);
+         ;
+            KeyboardState KEYS = Keyboard.GetState(); 
+            if (KEYS.IsKeyDown(Keys.E) && !isPlayingSong)
+            {
+                isPlayingSong = true;
+                MediaPlayer.Play(songs[songindex]);
+            }
+            if (KEYS.IsKeyDown(Keys.D1)&& old.IsKeyUp(Keys.D1))
+            {
+                MediaPlayer.Stop();
+                if (songindex == 0)
+                    songindex = songs.Count - 1;
+                else songindex--;
+
+                MediaPlayer.Play(songs[songindex]);
+               
+            }
+            if (KEYS.IsKeyDown(Keys.D3) && old.IsKeyUp(Keys.D3
+                ))
+            {
+                MediaPlayer.Stop();
+                if (songindex == songs.Count-1)
+                    songindex =0;
+                else songindex++;
+
+                MediaPlayer.Play(songs[songindex]);
+
+            }
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
 
@@ -140,7 +187,7 @@ namespace Actualfinal
                 if (Trail[i].Location.X < -90)
                     Trail.RemoveAt(i);
             HandleInputs(PlayerIndex.One, Player);
-
+  old = KEYS;
             base.Update(gameTime);
         }
 
@@ -179,6 +226,8 @@ namespace Actualfinal
             Player.Draw(spriteBatch);
             spriteBatch.DrawString(pericles, "Score:" + score, new Vector2(1750, 70), Color.White);
             spriteBatch.DrawString(pericles, "Deaths:" + Deaths, new Vector2(1750, 100), Color.White);
+            spriteBatch.DrawString(pericles, "Song: " + songs[songindex].ToString(), new Vector2(10, 10), Color.White);
+            spriteBatch.DrawString(pericles, "Press 1 or 3 to change songs", new Vector2(850, 10), Color.White);
             sped.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);

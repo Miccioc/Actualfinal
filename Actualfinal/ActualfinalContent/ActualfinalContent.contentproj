@@ -68,8 +68,45 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="music.mp3">
-      <Name>music</Name>
+    <Compile Include="[Drumstep] - Tristam &amp; Stephen Walking - Too Simple [Monstercat Release].mp3">
+      <Name>Tristam and Stephen Walking - Too Simple</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="[Dubstep] - Ephixa - Awesome To The Max [Monstercat Release].mp3">
+      <Name>Ephixa - Awesome to the Max</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="[EDM] - Pegboard Nerds &amp; Tristam - Razor Sharp [Monstercat Release].mp3">
+      <Name>Pegboard Nerds and Tristam - Razor Sharp</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="[Electro] - OVERWERK - House %28feat. Nick Nikon%29 [Monstercat Release].mp3">
+      <Name>OVERWERK - House</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="[Electro] - Rogue - Adventure Time [Monstercat Release].mp3">
+      <Name>Rogue - Adventure Time</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="[Electro] - Sound Remedy &amp;amp%3b Nitro Fun - Turbo Penguin [Monstercat Release].mp3">
+      <Name>Sound Remdy and Nitro Fun - Turbo Penguin</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+    <Compile Include="[Minimal _ Trance] - Laszlo - Messiah [Monstercat Release].mp3">
+      <Name>Laszlo - Messiah</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="[Drumstep] - Tristam &amp; Braken - Flight [Monstercat Release].mp3">
+      <Name>Tristam and Braken - Flight</Name>
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
     </Compile>
