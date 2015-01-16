@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pericles14.xnb</Output>
-      <Time>2015-01-15T10:44:38.193-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pericles14.xnb</Output>
+      <Time>2015-01-15T23:16:04.2627614-05:00</Time>
     </Item>
     <Item>
       <Source>speed .png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\speed.xnb</Output>
-      <Time>2015-01-15T10:44:38.194-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\speed.xnb</Output>
+      <Time>2015-01-15T23:16:04.2967633-05:00</Time>
     </Item>
     <Item>
       <Source>square.bmp</Source>
@@ -25,8 +25,27 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\square.xnb</Output>
-      <Time>2015-01-15T10:44:38.196-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\square.xnb</Output>
+      <Time>2015-01-15T23:16:04.3027637-05:00</Time>
+    </Item>
+    <Item>
+      <Source>background.png</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2015-01-15T23:22:15.7510093-05:00</Time>
+    </Item>
+    <Item>
+      <Source>music.mp3</Source>
+      <Name>music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\music.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\music.wma</Extra>
+      <Time>2015-01-16T00:09:22.0226628-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -34,10 +53,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\ActualfinalContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\ActualfinalContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\ActualfinalContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\ActualfinalContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -66,7 +85,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-04-18T11:24:14.1308-04:00</Value>
+        <Value>2014-10-13T22:44:24.4679039-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

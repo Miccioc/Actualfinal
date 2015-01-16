@@ -21,7 +21,9 @@ namespace Actualfinal
         SpriteBatch spriteBatch;
         public static Texture2D square, Speedsheet;
         SpriteFont pericles;
-
+        Texture2D texture1;
+        Rectangle rectangle1;
+        Rectangle rectangle2;
         Sprite Player;
         //Sprite Player2;
         List<Sprite> Trail = new List<Sprite>();
@@ -34,8 +36,8 @@ namespace Actualfinal
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
-            graphics.PreferredBackBufferWidth = 1650;
-            graphics.PreferredBackBufferHeight = 1050;
+            graphics.PreferredBackBufferWidth = 1920;
+            graphics.PreferredBackBufferHeight = 1000;
             Content.RootDirectory = "Content";
             //Components.Add(new GamerServicesComponent(this));
         }
@@ -43,19 +45,23 @@ namespace Actualfinal
 
         protected override void Initialize()
         {
-
+            rectangle1 = new Rectangle(0, 0, 1920, 1080);
+            rectangle2 = new Rectangle(0, 1080, 1920, 1080);
             base.Initialize();
         }
 
 
         protected override void LoadContent()
         {
-
+            Song song = Content.Load<Song>("music");
+            MediaPlayer.Play(song);
+            MediaPlayer.Volume = 10.0f;
             spriteBatch = new SpriteBatch(GraphicsDevice);
             square = Content.Load<Texture2D>(@"square");
             pericles = Content.Load<SpriteFont>(@"pericles14");
             Player = new Sprite(new Vector2(200, 500), square, new Rectangle(0, 0, 100, 100), Vector2.Zero);
             sped = new Speed(1920, 500);
+            texture1 = Content.Load<Texture2D>("background");
             Enemys.Clear();
             Restart();
 
@@ -89,6 +95,23 @@ namespace Actualfinal
             sped.Update(gameTime, Player.BoundingBoxRect);
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+
+            // TODO: Add your update logic here
+            // Simple bounds check. If the right edge of rectangle1 is offscreen to the left, 
+            // the code moves it to the right side of rectangle2.
+            if (rectangle1.Y + texture1.Height <= 0)
+                rectangle1.Y = rectangle2.X + texture1.Height;
+            // Then repeat this check for rectangle2.
+            if (rectangle2.Y + texture1.Height <= 0)
+                rectangle2.Y = rectangle1.X + texture1.Height;
+
+            // 6. Incrementally move the rectangles to the left. 
+            // Optional: Swap X for Y if you want to scroll vertically.
+
+            rectangle1.Y -= 15;
+            rectangle2.Y -= 15;
+
+
             Player.Rotation += .1f;
 
             if (Enemys.Count < 5)
@@ -123,31 +146,32 @@ namespace Actualfinal
 
         void HandleInputs(PlayerIndex index, Sprite player)
         {
-            GamePadState Gp = GamePad.GetState(index);
+            KeyboardState keybState = Keyboard.GetState();
             if (player.Location.Y <= 990)
-                if (Gp.ThumbSticks.Left.Y < 0)
+                if (keybState.IsKeyDown (Keys.Right))
                     player.Location = new Vector2(player.Location.X, player.Location.Y + 10 * Speed);
 
             if (player.Location.Y >= -10)
-                if (Gp.ThumbSticks.Left.Y > 0)
+                if (keybState.IsKeyDown(Keys.Left))
                     player.Location = new Vector2(player.Location.X, player.Location.Y - 10 * Speed);
 
             if (player.Location.X >= 0)
-                if (Gp.ThumbSticks.Left.X < 0)
+                if (keybState.IsKeyDown(Keys.Down))
                     player.Location = new Vector2(player.Location.X - 10 * Speed, player.Location.Y);
 
             if (player.Location.X <= 600)
-                if (Gp.ThumbSticks.Left.X > 0)
+                if (keybState.IsKeyDown(Keys.Up))
                     player.Location = new Vector2(player.Location.X + 10 * Speed, player.Location.Y);
 
         }
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.DarkSlateGray);
+            GraphicsDevice.Clear(Color.CornflowerBlue);
 
 
             spriteBatch.Begin();
-
+            spriteBatch.Draw(texture1, rectangle1, Color.White);
+            spriteBatch.Draw(texture1, rectangle2, Color.White);
             foreach (Sprite sp in Trail)
                 sp.Draw(spriteBatch);
             foreach (Sprite sp in Enemys)

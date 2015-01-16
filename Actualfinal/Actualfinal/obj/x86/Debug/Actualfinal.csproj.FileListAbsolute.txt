@@ -7,3 +7,15 @@ C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Deb
 C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Actualfinal.pdb
 C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Actualfinal.exe
 C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Actualfinal.pdb
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pericles14.xnb
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\speed.xnb
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\square.xnb
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Actualfinal.exe
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Actualfinal.pdb
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Actualfinal.csprojResolveAssemblyReference.cache
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Actualfinal.exe
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\obj\x86\Debug\Actualfinal.pdb
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\background.xnb
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\music.xnb
+C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\music.wma

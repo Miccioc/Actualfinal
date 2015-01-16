@@ -1,3 +1,6 @@
 Content\Pericles14.xnb
 Content\speed.xnb
 Content\square.xnb
+Content\background.xnb
+Content\music.xnb
+Content\music.wma
