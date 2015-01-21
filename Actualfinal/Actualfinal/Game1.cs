@@ -20,6 +20,9 @@ namespace Actualfinal
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         public static Texture2D square, Speedsheet;
+        Texture2D kar;
+        Texture2D kar2;
+        Texture2D trail2;
         SpriteFont pericles;
         Texture2D texture1;
         Rectangle rectangle1;
@@ -78,7 +81,10 @@ namespace Actualfinal
             spriteBatch = new SpriteBatch(GraphicsDevice);
             square = Content.Load<Texture2D>(@"square");
             pericles = Content.Load<SpriteFont>(@"pericles14");
-            Player = new Sprite(new Vector2(200, 500), square, new Rectangle(0, 0, 100, 100), Vector2.Zero);
+            kar = Content.Load<Texture2D>(@"kar");
+            kar2 = Content.Load<Texture2D>(@"kar2");
+            trail2 = Content.Load<Texture2D>(@"trail2");
+            Player = new Sprite(new Vector2(200, 500), kar, new Rectangle(0, 0, 114, 231), Vector2.Zero);
             sped = new Speed(1920, 500);
             texture1 = Content.Load<Texture2D>("background");
             Enemys.Clear();
@@ -97,15 +103,16 @@ namespace Actualfinal
         {
             score = 0;
             Deaths++;
-            Sprite temp = new Sprite(Player.Location, square, new Rectangle(0, 0, 100, 100), new Vector2(-600, 0), Color.Gray, 1f);
+            Sprite temp = new Sprite(Player.Location, trail2, new Rectangle(0, 0, 114, 231), new Vector2(0, 600), Color.Gray, 1f);
             Speed = 1;
-            temp.Rotation = Player.Rotation;
             Trail.Add(temp);
             Enemys.Clear();
 
-            Player = new Sprite(new Vector2(200, 500), square, new Rectangle(0, 0, 100, 100), Vector2.Zero);
+            Player = new Sprite(new Vector2(200, 500), kar, new Rectangle(0, 0, 114, 231), Vector2.Zero);
             foreach (Sprite sp in Trail)
-                sp.TintColor = Color.Red;
+                sp.Texture = trail2; 
+                
+                
 
         }
         protected override void Update(GameTime gameTime)
@@ -155,21 +162,18 @@ namespace Actualfinal
             // 6. Incrementally move the rectangles to the left. 
             // Optional: Swap X for Y if you want to scroll vertically.
 
-            rectangle1.Y -= 15;
-            rectangle2.Y -= 15;
-
-
-            Player.Rotation += .1f;
+            rectangle1.Y -= 20;
+            rectangle2.Y -= 20;
 
             if (Enemys.Count < 5)
             {
-                Enemys.Add(new Sprite(new Vector2(randy.Next(1920, 3000), randy.Next(0, 980)), square, new Rectangle(0, 0, 100, 100), new Vector2(-600 * Speed, 0), Color.Blue, 1f));
+                Enemys.Add(new Sprite(new Vector2(randy.Next(300,1600), randy.Next(0,0)), kar2, new Rectangle(0, 0, 119, 228), new Vector2(0, 1000 * Speed)));
             }
-            Trail.Add(new Sprite(Player.Location, square, new Rectangle(0, 0, 100, 100), new Vector2(-600, 0), Color.Gray, .8f));
+            
+          //  Trail.Add(new Sprite(Player.Location, trail2, new Rectangle(0, 0, 114, 231), new Vector2(0, 231), Color.Gray, .8f));
 
             foreach (Sprite sp in Enemys)
             {
-                sp.Rotation -= .1f;
                 sp.Update(gameTime);
                 if (sp.IsBoxColliding(Player.BoundingBoxRect))
                 {
@@ -178,13 +182,13 @@ namespace Actualfinal
                 }
             }
             for (int i = 0; i < Enemys.Count; i++)
-                if (Enemys[i].Location.X < -90)
+                if (Enemys[i].Location.Y > 1075)
                     Enemys.RemoveAt(i);
 
             foreach (Sprite sp in Trail)
                 sp.Update(gameTime);
             for (int i = 0; i < Trail.Count; i++)
-                if (Trail[i].Location.X < -90)
+                if (Trail[i].Location.Y > 1075)
                     Trail.RemoveAt(i);
             HandleInputs(PlayerIndex.One, Player);
   old = KEYS;
@@ -194,21 +198,22 @@ namespace Actualfinal
         void HandleInputs(PlayerIndex index, Sprite player)
         {
             KeyboardState keybState = Keyboard.GetState();
-            if (player.Location.Y <= 990)
+            if (player.Location.X <= 1600)
                 if (keybState.IsKeyDown (Keys.Right))
-                    player.Location = new Vector2(player.Location.X, player.Location.Y + 10 * Speed);
+                    player.Location = new Vector2(player.Location.X + 10 * Speed, player.Location.Y);
+            
 
-            if (player.Location.Y >= -10)
+            if (player.Location.X >= 300)
                 if (keybState.IsKeyDown(Keys.Left))
-                    player.Location = new Vector2(player.Location.X, player.Location.Y - 10 * Speed);
-
-            if (player.Location.X >= 0)
-                if (keybState.IsKeyDown(Keys.Down))
                     player.Location = new Vector2(player.Location.X - 10 * Speed, player.Location.Y);
 
-            if (player.Location.X <= 600)
+            if (player.Location.Y <= 900)
+                if (keybState.IsKeyDown(Keys.Down))
+                    player.Location = new Vector2(player.Location.X, player.Location.Y + 10 * Speed);
+
+            if (player.Location.Y >= 0)
                 if (keybState.IsKeyDown(Keys.Up))
-                    player.Location = new Vector2(player.Location.X + 10 * Speed, player.Location.Y);
+                    player.Location = new Vector2(player.Location.X, player.Location.Y - 10 * Speed);
 
         }
         protected override void Draw(GameTime gameTime)
@@ -227,7 +232,7 @@ namespace Actualfinal
             spriteBatch.DrawString(pericles, "Score:" + score, new Vector2(1750, 70), Color.White);
             spriteBatch.DrawString(pericles, "Deaths:" + Deaths, new Vector2(1750, 100), Color.White);
             spriteBatch.DrawString(pericles, "Song: " + songs[songindex].ToString(), new Vector2(10, 10), Color.White);
-            spriteBatch.DrawString(pericles, "Press 1 or 3 to change songs", new Vector2(850, 10), Color.White);
+            spriteBatch.DrawString(pericles, "Press e to start music, press 1 or 3 to change songs,", new Vector2(850, 10), Color.White);
             sped.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);

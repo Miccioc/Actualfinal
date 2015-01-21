@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pericles14.xnb</Output>
-      <Time>2015-01-16T07:46:59.095-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pericles14.xnb</Output>
+      <Time>2015-01-20T14:10:01.5060963-05:00</Time>
     </Item>
     <Item>
       <Source>speed .png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\speed.xnb</Output>
-      <Time>2015-01-16T07:46:59.218-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\speed.xnb</Output>
+      <Time>2015-01-20T14:10:01.8941185-05:00</Time>
     </Item>
     <Item>
       <Source>square.bmp</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\square.xnb</Output>
-      <Time>2015-01-16T07:46:59.226-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\square.xnb</Output>
+      <Time>2015-01-20T14:10:01.902119-05:00</Time>
     </Item>
     <Item>
       <Source>background.png</Source>
@@ -34,18 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\background.xnb</Output>
-      <Time>2015-01-16T07:46:59.129-05:00</Time>
-    </Item>
-    <Item>
-      <Source>[Electro] - Sound Remedy &amp;amp; Nitro Fun - Turbo Penguin [Monstercat Release].mp3</Source>
-      <Name>Sound Remdy and Nitro Fun - Turbo Penguin</Name>
-      <Importer>Mp3Importer</Importer>
-      <Processor>SongProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Sound Remdy and Nitro Fun - Turbo Penguin.xnb</Output>
-      <Extra>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Sound Remdy and Nitro Fun - Turbo Penguin.wma</Extra>
-      <Time>2015-01-16T07:57:37.4-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2015-01-20T14:10:01.8401154-05:00</Time>
     </Item>
     <Item>
       <Source>[Drumstep] - Tristam &amp; Stephen Walking - Too Simple [Monstercat Release].mp3</Source>
@@ -53,9 +43,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Stephen Walking - Too Simple.xnb</Output>
-      <Extra>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Stephen Walking - Too Simple.wma</Extra>
-      <Time>2015-01-16T07:57:37.36-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Stephen Walking - Too Simple.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Stephen Walking - Too Simple.wma</Extra>
+      <Time>2015-01-20T14:10:01.5931013-05:00</Time>
     </Item>
     <Item>
       <Source>[Dubstep] - Ephixa - Awesome To The Max [Monstercat Release].mp3</Source>
@@ -63,9 +53,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Ephixa - Awesome to the Max.xnb</Output>
-      <Extra>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Ephixa - Awesome to the Max.wma</Extra>
-      <Time>2015-01-16T07:57:37.37-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Ephixa - Awesome to the Max.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Ephixa - Awesome to the Max.wma</Extra>
+      <Time>2015-01-20T14:10:01.6261032-05:00</Time>
     </Item>
     <Item>
       <Source>[EDM] - Pegboard Nerds &amp; Tristam - Razor Sharp [Monstercat Release].mp3</Source>
@@ -73,9 +63,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pegboard Nerds and Tristam - Razor Sharp.xnb</Output>
-      <Extra>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pegboard Nerds and Tristam - Razor Sharp.wma</Extra>
-      <Time>2015-01-16T07:57:37.38-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pegboard Nerds and Tristam - Razor Sharp.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Pegboard Nerds and Tristam - Razor Sharp.wma</Extra>
+      <Time>2015-01-20T14:10:01.6661055-05:00</Time>
     </Item>
     <Item>
       <Source>[Electro] - OVERWERK - House (feat. Nick Nikon) [Monstercat Release].mp3</Source>
@@ -83,9 +73,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\OVERWERK - House.xnb</Output>
-      <Extra>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\OVERWERK - House.wma</Extra>
-      <Time>2015-01-16T07:57:37.39-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\OVERWERK - House.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\OVERWERK - House.wma</Extra>
+      <Time>2015-01-20T14:10:01.7061078-05:00</Time>
     </Item>
     <Item>
       <Source>[Electro] - Rogue - Adventure Time [Monstercat Release].mp3</Source>
@@ -93,9 +83,19 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Rogue - Adventure Time.xnb</Output>
-      <Extra>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Rogue - Adventure Time.wma</Extra>
-      <Time>2015-01-16T07:57:37.4-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Rogue - Adventure Time.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Rogue - Adventure Time.wma</Extra>
+      <Time>2015-01-20T14:10:01.7541105-05:00</Time>
+    </Item>
+    <Item>
+      <Source>[Electro] - Sound Remedy &amp;amp; Nitro Fun - Turbo Penguin [Monstercat Release].mp3</Source>
+      <Name>Sound Remdy and Nitro Fun - Turbo Penguin</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Sound Remdy and Nitro Fun - Turbo Penguin.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Sound Remdy and Nitro Fun - Turbo Penguin.wma</Extra>
+      <Time>2015-01-20T14:10:01.7851123-05:00</Time>
     </Item>
     <Item>
       <Source>[Minimal _ Trance] - Laszlo - Messiah [Monstercat Release].mp3</Source>
@@ -103,9 +103,9 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Laszlo - Messiah.xnb</Output>
-      <Extra>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Laszlo - Messiah.wma</Extra>
-      <Time>2015-01-16T07:57:37.41-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Laszlo - Messiah.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Laszlo - Messiah.wma</Extra>
+      <Time>2015-01-20T14:10:01.8301149-05:00</Time>
     </Item>
     <Item>
       <Source>[Drumstep] - Tristam &amp; Braken - Flight [Monstercat Release].mp3</Source>
@@ -113,9 +113,36 @@
       <Importer>Mp3Importer</Importer>
       <Processor>SongProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Braken - Flight.xnb</Output>
-      <Extra>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Braken - Flight.wma</Extra>
-      <Time>2015-01-16T08:05:18.829-05:00</Time>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Braken - Flight.xnb</Output>
+      <Extra>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\Tristam and Braken - Flight.wma</Extra>
+      <Time>2015-01-20T14:10:01.5540991-05:00</Time>
+    </Item>
+    <Item>
+      <Source>trail2.png</Source>
+      <Name>trail2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\trail2.xnb</Output>
+      <Time>2015-01-20T18:28:34.7104009-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Capture1.png</Source>
+      <Name>kar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\kar.xnb</Output>
+      <Time>2015-01-20T19:08:55.5468648-05:00</Time>
+    </Item>
+    <Item>
+      <Source>kar2.png</Source>
+      <Name>kar2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\kar2.xnb</Output>
+      <Time>2015-01-20T19:30:45.6407979-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -123,10 +150,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\ActualfinalContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\ActualfinalContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\ActualfinalContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\ActualfinalContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -155,7 +182,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-04-18T11:24:14.1308-04:00</Value>
+        <Value>2014-10-13T22:44:24.4679039-04:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
