@@ -53,3 +53,6 @@ C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86
 C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\kar.xnb
 C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\trail2.xnb
 C:\Users\alexadb123\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\kar2.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\trail2.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\kar.xnb
+C:\Users\eahscs\Documents\GitHub\Actualfinal\Actualfinal\Actualfinal\bin\x86\Debug\Content\kar2.xnb

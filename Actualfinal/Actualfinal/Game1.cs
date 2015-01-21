@@ -165,9 +165,9 @@ namespace Actualfinal
             rectangle1.Y -= 20;
             rectangle2.Y -= 20;
 
-            if (Enemys.Count < 5)
+            if (Enemys.Count < 4)
             {
-                Enemys.Add(new Sprite(new Vector2(randy.Next(300,1600), randy.Next(0,0)), kar2, new Rectangle(0, 0, 119, 228), new Vector2(0, 1000 * Speed)));
+                Enemys.Add(new Sprite(new Vector2(randy.Next(100,1800), randy.Next(-30,-30)), kar2, new Rectangle(0, 0, 119, 228), new Vector2(0, 500 * Speed)));
             }
             
           //  Trail.Add(new Sprite(Player.Location, trail2, new Rectangle(0, 0, 114, 231), new Vector2(0, 231), Color.Gray, .8f));
@@ -229,10 +229,11 @@ namespace Actualfinal
             foreach (Sprite sp in Enemys)
                 sp.Draw(spriteBatch);
             Player.Draw(spriteBatch);
-            spriteBatch.DrawString(pericles, "Score:" + score, new Vector2(1750, 70), Color.White);
+            
             spriteBatch.DrawString(pericles, "Deaths:" + Deaths, new Vector2(1750, 100), Color.White);
             spriteBatch.DrawString(pericles, "Song: " + songs[songindex].ToString(), new Vector2(10, 10), Color.White);
             spriteBatch.DrawString(pericles, "Press e to start music, press 1 or 3 to change songs,", new Vector2(850, 10), Color.White);
+            spriteBatch.DrawString(pericles, "Score:" + score, new Vector2(1750, 70), Color.White);   
             sped.Draw(spriteBatch);
             spriteBatch.End();
             base.Draw(gameTime);
